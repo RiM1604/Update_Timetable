@@ -1,0 +1,603 @@
+<html><head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="StyleSheet" href="../css/style.css">
+        <title>Elective List</title>
+        <script type="text/javascript">
+
+            function callFile(pageno, fileFullPath, doc) {
+
+                //document.forms['letter-form'].action='http://10.57.4.65:8080/StudentPerformanece/commonFileDownloader.jsp';
+                //document.forms['perform-form'].action='https://erp.iitkgp.ernet.in/StudentPerformance/commonFileDownloader.jsp';
+                document.forms['perform-form'].action = 'commonFileDownloader.jsp';
+                document.forms['perform-form'].elements['fileFullPath'].value = fileFullPath;
+                document.forms['perform-form'].elements['pageno'].value = pageno;
+                document.forms['perform-form'].elements['docId'].value = doc;
+
+                document.forms['perform-form'].submit();
+
+            }
+        </script>
+    </head>
+    <body>
+        
+        <table width="100%" cellpadding="1" cellspacing="1" border="0" bgcolor="#e0ecff">
+            
+            <tbody><tr><td colspan="5" style="background-color: skyblue"><b>List of Available Subjects for ELECTIVE I(MATH)</b></td></tr>
+            <tr>
+                <td width="50px" nowrap=""></td>
+                <td width="50px" nowrap=""><b>Subject No</b></td>
+                <td width="50px" nowrap=""><b>Subject Name</b></td>
+                <td width="50px" nowrap=""><b>L-T-P</b></td>
+                <td width="50px" nowrap=""><b>Credit</b></td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/AI60006/1');"><b>AI60006</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">DEPENDABLE AND SECURE AI-ML</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/AI60007/3');"><b>AI60007</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">GRAPH MACHINE LEARNING: FOUNDATIONS AND APPLICATIONS</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/AI60008/1');"><b>AI60008</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">KNOWLEDGE MODELLING AND SEMANTIC WEB TECHNOLOGIES</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/AI60201/1');"><b>AI60201</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">GRAPHICAL AND GENERATIVE MODELS FOR MACHINE LEARNING</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/AT61004/4');"><b>AI61006</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">ARTIFICIAL INTELLIGENCE FOR CYBER PHYSICAL SYSTEMS</td>
+                <td style="background-color: white" nowrap="">3-1-0</td>
+                <td style="background-color: white" nowrap="">4</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/AI61009/2');"><b>AI61009</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">ARTIFICIAL INTELLIGENCE FOR MANUFACTURING</td>
+                <td style="background-color: white" nowrap="">3-1-0</td>
+                <td style="background-color: white" nowrap="">4</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/AT62001/1');"><b>AT62001</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">INTRODUCTION TO AUGMENTED REALITY AND VIRTUAL REALITY</td>
+                <td style="background-color: white" nowrap="">2-0-2</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/BS60003/4');"><b>BS60003</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">NEUROCHEMISTRY</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/CS60021/3');"><b>CS60021</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">SCALABLE DATA MINING</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/CS60023/1');"><b>CS60023</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">APPROXIMATION AND ONLINE ALGORITHMS</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/CS60025/3');"><b>CS60025</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">ALGORITHMIC GAME THEORY</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/CS60029/1');"><b>CS60029</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">RANDOMIZED ALGORITHM DESIGN</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/DATA/ARCHIVE/SUBJECT/SYLLABUS/2009/CS60038//CS60038_1.pdf', '');"><b>CS60038</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">ADVANCES IN OPERATING SYSTEMS DESIGN</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/DATA/ARCHIVE/SUBJECT/SYLLABUS/2009/CS60050//CS60050_1.pdf', '');"><b>CS60050</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">MACHINE LEARNING</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/DATA/ARCHIVE/SUBJECT/SYLLABUS/2009/CS60055/CS60055_1.pdf', '');"><b>CS60055</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">UBIQUITOUS COMPUTING</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/CS60081/2');"><b>CS60081</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">USABLE SECURITY AND PRIVACY</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/CS60083/1');"><b>CS60083</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">PARAMETERIZED ALGORITHMS</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/CS61064/2');"><b>CS61064</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">HIGH PERFORMANCE PARALLEL PROGRAMMING</td>
+                <td style="background-color: white" nowrap="">3-1-0</td>
+                <td style="background-color: white" nowrap="">4</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/EC60007/6');"><b>EC60007</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">COMPUTATIONAL NEUROSCIENCE</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/DATA/ARCHIVE/SUBJECT/SYLLABUS/2009/ET60012//ET60012_1.pdf', '');"><b>ET60012</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">FOUNDATIONS OF EDUCATIONAL TECHNOLOGY</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/ET60021/1');"><b>ET60021</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">INTELLIGENT GAME DESIGN</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/ET60025/1');"><b>ET60025</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">LARGE SCALE SEARCH ENGINES</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/DATA/ARCHIVE/SUBJECT/SYLLABUS/2009/ET60027//ET60027_1.pdf', '');"><b>ET60027</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">PSYCHOLOGY OF LEARNING</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/ET60029/1');"><b>ET60029</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">TECHNOLOGY FOR SPECIAL NEEDS EDUCATION</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/HS3052/8');"><b>HS30054</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">SOCIOLOGY OF RESOURCE MANAGEMENT</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/KS20001/2');"><b>KS20201</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">THEORIES OF LANGUAGE COMPREHENSION: INDIA AND BEYOND</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/KS20003/2');"><b>KS20203</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">PANINIAN GRAMMAR FROM COMPUTATIONAL PERSPECTIVE</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/KS60001/1');"><b>KS60001</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">INTRODUCTION TO STHAPATYA VASTU AND NIRMAN VIDYA AND ARTHASHASTRA</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/DATA/ARCHIVE/SUBJECT/SYLLABUS/2009/MA20012//MA20012_1.pdf', '');"><b>MA20012</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">REAL ANALYSIS</td>
+                <td style="background-color: white" nowrap="">3-1-0</td>
+                <td style="background-color: white" nowrap="">4</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/DATA/ARCHIVE/SUBJECT/SYLLABUS/2009/MA20101//MA20101_1.pdf', '');"><b>MA20101</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">TRANSFORM CALCULUS</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/DATA/ARCHIVE/SUBJECT/SYLLABUS/2009/MA20105/MA20105_1.pdf', '');"><b>MA20105</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">LINEAR ALGEBRA</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/DATA/ARCHIVE/SUBJECT/SYLLABUS/2009/MA20107//MA20107_1.pdf', '');"><b>MA20107</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">MATRIX ALGEBRA</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/DATA/ARCHIVE/SUBJECT/SYLLABUS/2009/MA30014//MA30014_1.pdf', '');"><b>MA30014</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">OPERATION RESEARCH</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/DATA/ARCHIVE/SUBJECT/SYLLABUS/2009/MA40009//MA40009_1.pdf', '');"><b>MA40009</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">NUMBER THEORY</td>
+                <td style="background-color: white" nowrap="">3-1-0</td>
+                <td style="background-color: white" nowrap="">4</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/DATA/ARCHIVE/SUBJECT/SYLLABUS/2009/MA41006//MA41006_1.pdf', '');"><b>MA41006</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">COMPLEX ANALYSIS</td>
+                <td style="background-color: white" nowrap="">3-1-0</td>
+                <td style="background-color: white" nowrap="">4</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/DATA/ARCHIVE/SUBJECT/SYLLABUS/2009/MA61027//MA61027_1.pdf', '');"><b>MA61027</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">CRYPTOGRAPHY AND NETWORK SECURITY</td>
+                <td style="background-color: white" nowrap="">3-1-0</td>
+                <td style="background-color: white" nowrap="">4</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/RX60013/1');"><b>RX60013</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">HAPPINESS: ANCIENT INDIC PERSPECTIVES</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/RX60015/2');"><b>RX60015</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">COMMUNICATION, HAPPINESS AND WELL-BEING</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/RX60017/1');"><b>RX60017</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">SPORTS AND WELL-BEING</td>
+                <td style="background-color: white" nowrap="">2-0-0</td>
+                <td style="background-color: white" nowrap="">2</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/RX60019/1');"><b>RX60019</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">HAPPINESS AT WORK</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/RX60021/2');"><b>RX60021</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">TRANSFORMING SELF TO NURTURE LEADERSHIP TRAITS</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/RX61002/1');"><b>RX61002</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">SUSTAINABLE HAPPINESS</td>
+                <td style="background-color: white" nowrap="">3-0-2</td>
+                <td style="background-color: white" nowrap="">4</td>
+            </tr>
+            
+            <tr>
+                <td style="background-color: white" nowrap=""></td>
+                
+                
+                
+                <td style="background-color: white" nowrap=""><a onclick="callFile('0', '/', 'ACAD/SUBJECT/SYLLABUS/2009/SE60002/1');"><b>SE60002</b></a></td>
+
+                
+                <td style="background-color: white" nowrap="">SAFETY ENGINEERING AND MANAGEMENT</td>
+                <td style="background-color: white" nowrap="">3-0-0</td>
+                <td style="background-color: white" nowrap="">3</td>
+            </tr>
+            
+        </tbody></table>
+        
+    
+    <form name="perform-form" target="_blank" id="perform-form" action="" method="POST">
+        <input type="hidden" name="rollno" value="">
+        <input type="hidden" name="fileFullPath" value="">
+        <input type="hidden" name="pageno" value="">
+        <input type="hidden" name="docId" value="">
+    </form>
+
+</body></html>
